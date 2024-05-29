@@ -1,7 +1,9 @@
 /******************************
  * YOUR CODE GOES RIGHT HERE! *
  ******************************/
-
+function isItLong(){
+  if() "That's a long string!"
+}
 
 
 
