@@ -2,6 +2,18 @@
  * YOUR CODE BELOW *
  ******************/
 
+ let myFirstName = 'Zemar'
+ let myLastName = 'Osman'
+ let myFavoriteCeleb = 'Kobe'
+ let mySentence = 'Zemar; Osman; Kobe'
+ let myLuckyNum = 15
+ let myAge = 35
+ let myHeight = 61
+ let myFavoriteYear = 2010
+ let mySum = 5 + 2317 + 36
+ let myProduct = 232 * 43 / 2 + 4
+ let myHeightAndAge = 61 + 35
+
 
 /*********************************************************************************************************************
 
