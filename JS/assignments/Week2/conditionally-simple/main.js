@@ -1,10 +1,26 @@
 /******************************
  * YOUR CODE GOES RIGHT HERE! *
  ******************************/
-function isItLong(){
-  if() "That's a long string!"
+function isItLong(str) {
+  if (str.length > 20) {
+    return "That's a long string!"
+  }
 }
 
+function isItMedium(str) {
+  if (str.length >= 10 && str.length <= 20){
+    return "That's a regular sized string!"
+  }
+}
+
+function isItShort(str){
+  if (str.length < 10){
+    return "That's a small string!"
+  }else{
+    return "That's not a small string!"
+  }
+
+}
 
 
 /**********************************
