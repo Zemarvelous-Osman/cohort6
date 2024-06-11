@@ -31,7 +31,7 @@ Now for some functions!
 
 - Create a function called `modYBy` that takes in one parameter, divides `y` by that parameter, and sets `y` to the remainder of that division. Look up the JavaScript modulus operator if you don't remember it, because it could sure come in handy here!
 
-- Create a function called `opposite` that takes in a parameter and sets `z` to equal the opposite sign of that parameter. For example, if the function is passed `6`, `z` should be set to `-6`, and if passed `-85`, `z` should be set to `85`. Note that we are not "reading" the value of `z` here. In other words, unlike the other problems here, it doesn't matter what `z` used to be!
+- Create a function called `opposite` that takes in a parameter and sets `z` to equal the opposite sign of that parameter. For example, if the function is passed `6`, `z` should be set to `-6`, and if passed `-85`, `z` should be set to `85`. Note that we are not "reading" the value of `z` here. In other words, unlike the other problefuncms here, it doesn't matter what `z` used to be!
 
 - Create a variable called `makeFullName` that takes in a string parameter and sets `name` to have that string at the end, with a space in the middle.
 

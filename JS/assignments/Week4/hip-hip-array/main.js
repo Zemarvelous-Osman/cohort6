@@ -62,11 +62,31 @@ const fibonacciNumbers = [1, 1, 2, 3, 5, 8, 13];
 
 
 // Challenge 10
-// Loop through the `students` array from Challenge 1, making a COPY of the array, starting at index 3 and ending at index 10 (INCLUSIVE). This is very similar to string building; create a new array, loop through the old one, and put values from the original in the new one. Then log out each value of the copy indivudally.
+// Loop through the `students` array from Challenge 1, making a COPY of the array, starting at index 3 and ending at index 10 (INCLUSIVE). This is very similar to string building; create a new array, loop through the old one, and put values from the original in the new one. Then log out each value of the copy indivudally
+
+
+// let newStudent = []
+// for (let i = 3; i <= 10; i++){
+// newStudent.push(students[i])
+// console.log(newStudent[i - 3])
+// }
+
+
 
 
 // Challenge 11
 // Make a COPY of the `students` array *using .slice*, starting at index 3 and ending at index 10 (INCLUSIVE), then log out each value of the copy individually. THEN log out each value of the original array. Notice that the original array didn't get any values taken out of it, because `slice` does NOT modify the original array.
+
+let slice = students.slice(3, 11)
+console.log("slice", slice)
+
+for (let i = 0; i < students.length; i++){
+  console.log("students", "i", i, students[i])
+}
+for (let i = 0; i < slice.length; i++){
+  console.log("slice", "i", i, slice[1])
+}
+
 
 
 // Challenge 12

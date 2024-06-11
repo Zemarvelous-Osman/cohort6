@@ -2,6 +2,40 @@
  * YOUR CODE BELOW! *
  ********************/
 
+function moreThan5(num){
+  if ( n > 5){
+    return true
+  } else if ( n < 5){
+    return false
+  }
+
+} 
+
+
+// function isNewTopScore(24){
+//   if()
+
+
+// }
+
+function isInDanger(num){
+  if (num >= 60 and num <= 70){
+    return true
+    } if else {
+  return false
+  }
+
+}
+
+function isCoasting(num){
+  if (num >= 72 and num <= 83){
+    return true
+  if else 
+  }
+
+}
+
+
 
 
 /********************************************************************************************
